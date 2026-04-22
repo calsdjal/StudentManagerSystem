@@ -2,7 +2,7 @@ package studentSystem;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class studentsystem {
-    public static void main(String[] args){
+    public static void startStudentSystem(){
         ArrayList<student> list=new ArrayList<>();
         loop: while(true) {  //loop是给循环起个名字，方便break语句退出此次循环
             System.out.println("-------------------欢迎来到0.0的学生管理系统-------------------");
